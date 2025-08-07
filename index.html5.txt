@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Shopping Form</title>
+</head>
+<body>
+  <h2>Online Shopping</h2>
+  <form>
+    <label for="name">Customer Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label>Select Products:</label><br>
+    <input type="checkbox" name="product" value="T-Shirt"> T-Shirt<br>
+    <input type="checkbox" name="product" value="Shoes"> Shoes<br>
+    <input type="checkbox" name="product" value="Watch"> Watch<br>
+    <input type="checkbox" name="product" value="Bag"> Bag<br><br>
+
+    <label for="address">Shipping Address:</label><br>
+    <textarea id="address" name="address" rows="3" cols="30" required></textarea><br><br>
+
+    <label for="payment">Payment Method:</label><br>
+    <select id="payment" name="payment">
+      <option value="card">Credit/Debit Card</option>
+      <option value="upi">UPI</option>
+      <option value="cod">Cash on Delivery</option>
+    </select><br><br>
+
+    <input type="submit" value="Place Order">
+  </form>
+</body>
+</html>
